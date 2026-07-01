@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import './NewPost.css'
 
-const Base_URL ='http://localhost:8000/'
+const Base_URL ='https://fastapi-blog-backend-iu3q.onrender.com/'
 
 function NewPost(){
     
