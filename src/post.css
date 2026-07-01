@@ -1,0 +1,41 @@
+.post{                        /* controls the box that hold the image*/
+    display: flex;            /*image left side and text right side  due to this*/
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    max-width: 50%;
+    margin-bottom: 5%;
+}
+
+.post_image{                  /*styles only the image*/
+    display: block;
+    width: 20%;
+    object-fit: contain;
+    padding-right: 10px;
+    margin-bottom: auto;
+}
+
+.post_content{
+    display: block;
+}
+
+.post_title{
+    font-size: xx-large;
+}
+
+.post_text{
+    white-space: pre-line;    /*keep line breaks*/
+}
+
+.post_delete{
+    margin: 10px;
+}
+
+.post_creator{
+    font-size: small;
+    font-style: italic;
+    margin: 5px;
+    margin-left: 10px;
+}
+
